@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<style>
+    .phone{
+        overflow: hidden;
+        overflow-y: scroll;
+        position: absolute;
+        border: 6px solid black;
+        height: 15cm;
+        width: 8cm;
+        border-radius:35px;
+        margin-top: 3cm;
+        margin-left: 14cm;
+    }
+    .phone::-webkit-scrollbar{
+        display: none;
+    }
+    .frontcam{
+    position: fixed;
+    border: solid black;
+    background-color: black;
+    height: 20px;
+    width: 60px;
+    margin-top: 6px;
+    margin-left: 215px;
+    border-radius: 19px;
+    }
+    .header{
+        background-color: white;
+    position: fixed;
+    margin-top: 0px;
+    margin-left: 0px;
+    height: 30px;
+    width: 291px;
+    border-radius: 0;
+    border-top-right-radius: 27px;
+    border-top-left-radius: 27px;
+    margin-top: -295px;
+    }
+    .header1{
+        background-color: white;
+        position: fixed;
+        height: 30px;
+        width: 291px;
+        margin-top: -266px;
+    }
+    .header2{
+        background-color: white;
+        border: 1px solid black;
+        display: flex;
+        height: 69px;
+        width: 12cm;
+        margin-top: 0px;
+        margin-left: 0px;
+        position: absolute;
+    }
+    .header22{
+        display: flex;
+        height: 2cm;
+        width: 291px;
+        margin-top: 76px;
+        margin-left: 0px;
+        position: absolute;
+        overflow: hidden;
+        overflow-x: scroll;
+    }
+    .header22::-webkit-scrollbar{
+        display: none;
+    }
+    .header4{
+        display: flex;
+        position: absolute;
+        height: 5cm;
+        width: 35cm;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .header44{
+        overflow: hidden;
+        overflow-x: scroll;
+        display: flex;
+        position: absolute;
+        height: 5cm;
+        width: 291px;
+        margin-top: 322px;
+        margin-left: 1px;
+    }
+    .header44::-webkit-scrollbar{
+        display: none;
+    }
+    .item{
+        height: 55px;
+        width: 55px;
+        margin: 5px;
+        border-radius: 6px;
+    }
+    .header3{
+        background-color: white;
+        position: absolute;
+        height: 1cm;
+        width: 8cm;
+        margin-top: 292px;
+        margin-left: 1px;
+    }
+    
+    .movies{
+        border: 2px solid black;
+        height: 171px;
+        width: 124px;
+        margin: 5px;
+        border-radius: 15px;
+    }
+    
+    .advertisement{
+        overflow: hidden;
+    overflow-x: scroll;
+    height: 84px;
+        width: 291px;
+        margin-top: 143px;
+        margin-left: 0px;
+    }
+.formoving{
+    display: flex;
+   height: 87px;
+    width: 881px;
+    margin: 5px;
+    margin-left: -2px;
+    margin-top: -3px;
+}
+
+    .stuff{
+        margin-top: 1px;
+        margin-left: 1px;
+        height: 80px;
+        width: 293px;
+        margin-left: -1px;
+        margin-top: 4px;
+    }
+    .advertisement::-webkit-scrollbar{
+        display: none;
+    }
+    .amazon{
+        height: 50px;
+    width: 259px;
+    margin-top: 18px;
+    margin-left: 16px;
+    }
+    .footer{
+    position: fixed;
+    display: flex;
+    height: 51px;
+    width: 287px;
+    margin-top: 623px;
+    margin-left: 538px;
+    background-color: white;
+    border-bottom-left-radius: 22px;
+    border-bottom-right-radius: 26px;
+}
+    
+    .footer1{
+        height: 37px;
+        width: 37px;
+        margin-top: 1px;
+        margin-left: 1px;
+    }
+    .scroll1{
+        border: 2px solid black;
+        height: 61px;
+        width: 293px;
+        margin-top: 261px;
+    }
+    .scroll2{
+        border: 2px solid black;
+        height: 100px;
+        width: 296px;
+        margin-top: 21px;
+    }
+</style>
+<body>
+    <div class="phone">
+        
+            <div class="header22">
+            <div class="header2">
+                <div class="item">
+                    <svg style="margin-top: 3px; margin-left:10px;" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-film" viewBox="0 0 16 16">
+                        <path d="M0 1a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1zm4 0v6h8V1zm8 8H4v6h8zM1 1v2h2V1zm2 3H1v2h2zM1 7v2h2V7zm2 3H1v2h2zm-2 3v2h2v-2zM15 1h-2v2h2zm-2 3v2h2V4zm2 3h-2v2h2zm-2 3v2h2v-2zm2 3h-2v2h2z"/>
+                      </svg>
+                      <p style="font-size: 12px; margin-top: 1px; margin-left: 6px;">Movies</p>
+                </div>
+                <div class="item">
+                    <svg style="margin-top: 3px; margin-left:10px;" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-scooter" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M9 2.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-.39l1.4 7a2.5 2.5 0 1 1-.98.195l-.189-.938-2.43 3.527A.5.5 0 0 1 9.5 13H4.95a2.5 2.5 0 1 1 0-1h4.287l2.831-4.11L11.09 3H9.5a.5.5 0 0 1-.5-.5M3.915 12a1.5 1.5 0 1 0 0 1H2.5a.5.5 0 0 1 0-1zm8.817-.789A1.499 1.499 0 0 0 13.5 14a1.5 1.5 0 0 0 .213-2.985l.277 1.387a.5.5 0 0 1-.98.196z"/>
+                      </svg>
+                      <p style="font-size: 12px; margin-top: 1px; margin-left: 6px;">Sports</p>
+                </div>
+                <div class="item">
+                    <svg style="margin-top: 3px; margin-left:10px;" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-music-note-beamed" viewBox="0 0 16 16">
+                        <path d="M6 13c0 1.105-1.12 2-2.5 2S1 14.105 1 13s1.12-2 2.5-2 2.5.896 2.5 2m9-2c0 1.105-1.12 2-2.5 2s-2.5-.895-2.5-2 1.12-2 2.5-2 2.5.895 2.5 2"/>
+                        <path fill-rule="evenodd" d="M14 11V2h1v9zM6 3v10H5V3z"/>
+                        <path d="M5 2.905a1 1 0 0 1 .9-.995l8-.8a1 1 0 0 1 1.1.995V3L5 4z"/>
+                      </svg>
+                      <p style="font-size: 12px; margin-top: 1px; margin-left: 6px;">Music</p>
+                </div>
+                <div class="item">
+                    <svg style="margin-top: 3px; margin-left:10px;" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-mic" viewBox="0 0 16 16">
+                        <path d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5"/>
+                        <path d="M10 8a2 2 0 1 1-4 0V3a2 2 0 1 1 4 0zM8 0a3 3 0 0 0-3 3v5a3 3 0 0 0 6 0V3a3 3 0 0 0-3-3"/>
+                      </svg>
+                      <p style="font-size: 12px; margin-top: 1px; margin-left: 3px;">Comedy</p>
+                </div>
+                <div class="item">
+                    <svg style="margin-top: 3px; margin-left:10px;" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-film" viewBox="0 0 16 16">
+                        <path d="M0 1a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1zm4 0v6h8V1zm8 8H4v6h8zM1 1v2h2V1zm2 3H1v2h2zM1 7v2h2V7zm2 3H1v2h2zm-2 3v2h2v-2zM15 1h-2v2h2zm-2 3v2h2V4zm2 3h-2v2h2zm-2 3v2h2v-2zm2 3h-2v2h2z"/>
+                      </svg>
+                      <p style="font-size: 12px; margin-top: 1px; margin-left: 6px;">Stream</p>
+                </div>
+                <div class="item">
+                    <svg style="margin-top: 3px; margin-left:10px;" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-people" viewBox="0 0 16 16">
+                        <path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1zm-7.978-1L7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002-.014.002zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4m3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0M6.936 9.28a6 6 0 0 0-1.23-.247A7 7 0 0 0 5 9c-4 0-5 3-5 4q0 1 1 1h4.216A2.24 2.24 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816M4.92 10A5.5 5.5 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0m3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4"/>
+                      </svg>
+                      <p style="font-size: 12px; margin-top: 1px; margin-left: 13px;">Kids</p>
+                </div>
+                <div class="item">
+                    <svg style="margin-top: 3px; margin-left:10px;" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-journals" viewBox="0 0 16 16">
+                        <path d="M5 0h8a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2 2 2 0 0 1-2 2H3a2 2 0 0 1-2-2h1a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1H1a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v9a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1H3a2 2 0 0 1 2-2"/>
+                        <path d="M1 6v-.5a.5.5 0 0 1 1 0V6h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0V9h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 2.5v.5H.5a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1H2v-.5a.5.5 0 0 0-1 0"/>
+                      </svg>
+                      <p style="font-size: 12px; margin-top: 1px; margin-left: 6px;">See All</p>
+                </div>
+            </div>
+        </div>
+            <div class="header3">
+                <p style=" position: absolute; font-weight: bolder; margin-top: 5px; margin-left: 5px;">Recommended Movies</p>
+                <p style=" position: absolute; font-size: 11px; color: red; margin-top: 10px; margin-left: 232px;">See All ></p>
+            </div>
+            <div class="header44">
+            <div class="header4">
+                <div class="movies">
+                    <img src="5.jpeg" alt="" style="height: 100%; width: 100%; border-radius: 13px;">
+                </div>
+                <div class="movies">
+                    <img src="6.jpeg" alt="" style="height: 100%; width: 100%; border-radius: 13px;">
+                </div>
+                <div class="movies">
+                    <img src="7.jpeg" alt="" style="height: 100%; width: 100%; border-radius: 13px;">
+                </div>
+                <div class="movies">
+                    <img src="8.jpeg" alt="" style="height: 100%; width: 100%; border-radius: 13px;">
+                </div>
+                <div class="movies">
+                    <img src="9.jpeg" alt="" style="height: 100%; width: 100%; border-radius: 13px;">
+                </div>
+                <div class="movies">
+                    <img src="10.jpeg" alt="" style="height: 100%; width: 100%; border-radius: 13px;">
+                </div>
+                <div class="movies">
+                    <img src="11.jpeg" alt="" style="height: 100%; width: 100%; border-radius: 13px;">
+                </div>
+                <div class="movies">
+                    <img src="12.jpeg" alt="" style="height: 100%; width: 100%; border-radius: 13px;">
+                </div>
+                <div class="movies">
+                    <img src="14.jpeg" alt="" style="height: 100%; width: 100%; border-radius: 13px;">
+                </div>
+                <div class="movies">
+                    <img src="7.jpeg" alt="" style="height: 100%; width: 100%; border-radius: 13px;">
+                </div>
+            </div>
+            </div>
+            <div class="advertisement">
+                <div class="formoving">
+                    <div class="stuff">
+                        <img src="2.jpg" style="height: 100%; width: 103%;" target="blank">
+                    </div>
+                    <div class="stuff">
+                        <img src="3.jpg" style="height: 100%; width: 103%;">
+                    </div>
+                    <div class="stuff">
+                        <img src="4.jpeg" style="height: 100%; width: 103%;">
+                    </div>
+
+                </div>
+            </div>
+            <div class="amazon">
+                <img src="1.jpeg" style="height: 80%; width: 100%;" >
+            </div>
+
+            <div class="header">
+                <div class="frontcam"></div>
+                <svg style="position:absolute; margin-left:187px; margin-top:4px;" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-battery-full" viewBox="0 0 16 16">
+                    <path d="M2 6h10v4H2z"/>
+                    <path d="M2 4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm10 1a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm4 3a1.5 1.5 0 0 1-1.5 1.5v-3A1.5 1.5 0 0 1 16 8"/>
+                  </svg>
+                <svg style="margin-top: 6px; margin-left:162px;" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-reception-4" viewBox="0 0 16 16">
+                    <path d="M0 11.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v11a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5z"/>
+                  </svg>
+                  <svg style="position: absolute; margin-left:-45px; margin-top:7px;" xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-bell-slash" viewBox="0 0 16 16">
+                    <path d="M5.164 14H15c-.299-.199-.557-.553-.78-1-.9-1.8-1.22-5.12-1.22-6q0-.396-.06-.776l-.938.938c.02.708.157 2.154.457 3.58.161.767.377 1.566.663 2.258H6.164zm5.581-9.91a4 4 0 0 0-1.948-1.01L8 2.917l-.797.161A4 4 0 0 0 4 7c0 .628-.134 2.197-.459 3.742q-.075.358-.166.718l-1.653 1.653q.03-.055.059-.113C2.679 11.2 3 7.88 3 7c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0c.942.19 1.788.645 2.457 1.284zM10 15a2 2 0 1 1-4 0zm-9.375.625a.53.53 0 0 0 .75.75l14.75-14.75a.53.53 0 0 0-.75-.75z"/>
+                  </svg>
+                <p style="margin-top: -19px; margin-left:10px; font-size: 13px;">12:47PM</p>
+                </div>
+                <div class="header1">
+                    <p style="font-size: 17px; margin-left: 9px; margin-top: 5px; font-weight: bolder; background-color: white;">It All Starts Here</p><br>
+                    <p style="color: red; font-size: 12px; margin-top: -47px; margin-left: 0px; background-color: white;"> &nbsp;&nbsp;&nbsp;Mohali ></p>
+                    <svg style="margin-top: -96px; margin-left:187px;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                      </svg>
+                      <svg style="margin-top: -141px; margin-left:221px;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bell" viewBox="0 0 16 16">
+                        <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2M8 1.918l-.797.161A4 4 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4 4 0 0 0-3.203-3.92zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5 5 0 0 1 13 6c0 .88.32 4.2 1.22 6"/>
+                      </svg>
+                      <svg style="margin-top: -188px; margin-left:252px;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-qr-code-scan" viewBox="0 0 16 16">
+                        <path d="M0 .5A.5.5 0 0 1 .5 0h3a.5.5 0 0 1 0 1H1v2.5a.5.5 0 0 1-1 0zm12 0a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0V1h-2.5a.5.5 0 0 1-.5-.5M.5 12a.5.5 0 0 1 .5.5V15h2.5a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5v-3a.5.5 0 0 1 .5-.5m15 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H15v-2.5a.5.5 0 0 1 .5-.5M4 4h1v1H4z"/>
+                        <path d="M7 2H2v5h5zM3 3h3v3H3zm2 8H4v1h1z"/>
+                        <path d="M7 9H2v5h5zm-4 1h3v3H3zm8-6h1v1h-1z"/>
+                        <path d="M9 2h5v5H9zm1 1v3h3V3zM8 8v2h1v1H8v1h2v-2h1v2h1v-1h2v-1h-3V8zm2 2H9V9h1zm4 2h-1v1h-2v1h3zm-4 2v-1H8v1z"/>
+                        <path d="M12 9h2V8h-2z"/>
+                      </svg>
+                </div>
+                <div class="scroll1">
+                    <img src="15.jpeg" height="100%" width="100% target:blank;">
+                </div>
+                <div class="scroll2">
+                    <img src="16.jpeg" style="height: 100%; width: 100%;">
+                </div>
+                <br>
+                <br>
+                <br>
+    
+            </div>
+            <div class="footer">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <div class="footer1">
+                    <svg style="margin-top: 4px; margin-left:4px;" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+                        <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z"/>
+                      </svg>
+                      <p style="margin-top: 1px; margin-left: 3px; font-size: 9px;">Home</p>
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <div class="footer1">
+                    <svg style="margin-top: 4px; margin-left:4px;" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-camera-video" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2zm11.5 5.175 3.5 1.556V4.269l-3.5 1.556zM2 4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1z"/>
+                      </svg>
+                      <p style="margin-top: 1px; margin-left: 3px; font-size: 9px;">Movies</p>
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <div class="footer1">
+                    <svg style="margin-top: 4px; margin-left:4px;" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-calendar3-event" viewBox="0 0 16 16">
+                        <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2M1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857z"/>
+                        <path d="M12 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>
+                      </svg>
+                      <p style="margin-top: 1px; margin-left: 3px; font-size: 9px;">Events</p>
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <div class="footer1">
+                    <svg style="margin-top: 4px; margin-left:4px;" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                        <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/>
+                      </svg>
+                      <p style="margin-top: 1px; margin-left: 3px; font-size: 9px;">Profile</p>
+                </div>
+            </div>
+            
+   
+</body>
+</html>
